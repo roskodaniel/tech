@@ -9,9 +9,7 @@ echo "  \___/|_|   |____/_/   \_\_| |___|_| \_|\____|";
 echo "                                               ";
 echo ">>>>>>>>>>>>>   UPDATING RASPBERRY <<<<<<<<<<<<";
 echo "                                               "; 
-sudo apt update
-sudo apt full-upgrade
-y
+sudo apt update && sudo apt full-upgrade -y
 echo "                                                          ";
 echo ">>>>>>>>>>>>>   UPDATE FINISHED, RESTARTNG   <<<<<<<<<<<<<";
 echo "  ____  _____ ____ _____  _    ____ _____ ___ _   _  ____ ";
