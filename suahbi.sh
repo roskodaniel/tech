@@ -1,6 +1,10 @@
 #!/bin/bash
 
-#System Update And HomeBridge Install
+#System Update
+#Homebridge Install
+#Node-Red Install
+#MQTT Install
+#Zigbee2mqtt Install
 
 echo "                                               ";
 echo ">>>>>>>>>>>>>   UPDATING RASPBERRY <<<<<<<<<<<<";
@@ -177,13 +181,13 @@ echo ">>>>>>>>>>>>>>> <<<<<<<<<<<<<<<";
 echo " "
 echo "Raspberry IP:"
 hostname -I
-echo "====================="
-echo "Homebridge Port: 8581"
-echo "====================="
-echo "  ODE-RED  Port: 1880"
-echo "====================="
-echo " zigbee2mqtt Port: 1883"
-echo "====================="
+echo "========================"
+echo "Homebridge    Port: 8581"
+echo "========================"
+echo "NODE-RED      Port: 1880"
+echo "========================"
+echo " zigbee2mqtt  Port: 1883"
+echo "========================"
 echo "                                                          ";
 echo ">>>>>>>>   UPDATE & INSTALL FINISHED, RESTARTNG   <<<<<<<<";
 echo "  ____  _____ ____ _____  _    ____ _____ ___ _   _  ____ ";
@@ -194,6 +198,5 @@ echo " |_| \_\_____|____/ |_/_/   \_\_| \_\|_| |___|_| \_|\____|";
 echo "                                                          ";
 echo ">>>>>>>>   UPDATE & INSTALL FINISHED, RESTARTNG   <<<<<<<<";
 echo "                                                          ";
-
 
 sudo reboot
