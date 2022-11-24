@@ -44,26 +44,6 @@ sudo apt-get update
 sudo apt-get install homebridge -y
 
 echo "                                                         ";
-echo ">>>>>>>>>>>>>>>>   INSTALLING  NODE-RED   <<<<<<<<<<<<<<<";
-echo "  ___ _   _ ____ _____  _    _     _     ___ _   _  ____ ";
-echo " |_ _| \ | / ___|_   _|/ \  | |   | |   |_ _| \ | |/ ___|";
-echo "  | ||  \| \___ \ | | / _ \ | |   | |    | ||  \| | |  _ ";
-echo "  | || |\  |___) || |/ ___ \| |___| |___ | || |\  | |_| |";
-echo " |___|_| \_|____/ |_/_/   \_\_____|_____|___|_| \_|\____|";
-echo "   _   _  ___  ____  _____           ____  _____ ____    ";
-echo "  | \ | |/ _ \|  _ \| ____|         |  _ \| ____|  _ \   ";
-echo "  |  \| | | | | | | |  _|    _____  | |_) |  _| | | | |  ";
-echo "  | |\  | |_| | |_| | |___  |_____| |  _ <| |___| |_| |  ";
-echo "  |_| \_|\___/|____/|_____|         |_| \_\_____|____/   ";
-echo "                                                         ";
-echo ">>>>>>>>>>>>>>>>   INSTALLING  NODE-RED   <<<<<<<<<<<<<<<";
-echo "                                                         ";
-
-
-bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
-sudo systemctl enable nodered.service
-
-echo "                                                         ";
 echo ">>>>>>>>>>>>>>>>>>   INSTALLING  MQTT   <<<<<<<<<<<<<<<<<";
 echo "  ___ _   _ ____ _____  _    _     _     ___ _   _  ____ ";
 echo " |_ _| \ | / ___|_   _|/ \  | |   | |   |_ _| \ | |/ ___|";
@@ -183,8 +163,6 @@ echo "Raspberry IP:"
 hostname -I
 echo "========================"
 echo "Homebridge    Port: 8581"
-echo "========================"
-echo "NODE-RED      Port: 1880"
 echo "========================"
 echo "zigbee2mqtt   Port: 1883"
 echo "========================"
