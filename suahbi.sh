@@ -165,6 +165,23 @@ WantedBy=multi-user.target
 EOL
 sudo systemctl enable zigbee2mqtt.service
 
+echo " "
+echo ">>>>>>>>>>>>>>> <<<<<<<<<<<<<<<";
+echo "  ____   ___  ____ _____ ____  ";
+echo " |  _ \ / _ \|  _ \_   _/ ___| ";
+echo " | |_) | | | | |_) || | \___ \ ";
+echo " |  __/| |_| |  _ < | |  ___) |";
+echo " |_|    \___/|_| \_\|_| |____/ ";
+echo " "
+echo ">>>>>>>>>>>>>>> <<<<<<<<<<<<<<<";
+echo " "
+echo "Raspberry IP:"
+hostname -I
+echo "====================="
+echo "Homebridge Port: 8581"
+echo "====================="
+echo " NODE-RED ddsadasdsd
+echo "====================="
 echo "                                                          ";
 echo ">>>>>>>>   UPDATE & INSTALL FINISHED, RESTARTNG   <<<<<<<<";
 echo "  ____  _____ ____ _____  _    ____ _____ ___ _   _  ____ ";
