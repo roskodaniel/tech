@@ -180,7 +180,9 @@ hostname -I
 echo "====================="
 echo "Homebridge Port: 8581"
 echo "====================="
-echo " NODE-RED ddsadasdsd
+echo "  ODE-RED  Port: 1880"
+echo "====================="
+echo " zigbee2mqtt Port: 1883"
 echo "====================="
 echo "                                                          ";
 echo ">>>>>>>>   UPDATE & INSTALL FINISHED, RESTARTNG   <<<<<<<<";
