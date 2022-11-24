@@ -40,28 +40,21 @@ echo "deb [signed-by=/usr/share/keyrings/homebridge.gpg] https://repo.homebridge
 sudo apt-get update
 sudo apt-get install homebridge -y
 
+echo "  ___ _   _ ____ _____  _    _     _     ___ _   _  ____ ";
+echo " |_ _| \ | / ___|_   _|/ \  | |   | |   |_ _| \ | |/ ___|";
+echo "  | ||  \| \___ \ | | / _ \ | |   | |    | ||  \| | |  _ ";
+echo "  | || |\  |___) || |/ ___ \| |___| |___ | || |\  | |_| |";
+echo " |___|_| \_|____/ |_/_/   \_\_____|_____|___|_| \_|\____|";
+echo "   _   _  ___  ____  _____           ____  _____ ____    ";
+echo "  | \ | |/ _ \|  _ \| ____|         |  _ \| ____|  _ \   ";
+echo "  |  \| | | | | | | |  _|    _____  | |_) |  _| | | | |  ";
+echo "  | |\  | |_| | |_| | |___  |_____| |  _ <| |___| |_| |  ";
+echo "  |_| \_|\___/|____/|_____|         |_| \_\_____|____/   ";
+echo "                                                         ";
 
-echo "                          ";
-echo ">>> INSTALLATION  DONE <<<";
-echo "  ____   ___  _   _ _____ ";
-echo " |  _ \ / _ \| \ | | ____|";
-echo " | | | | | | |  \| |  _|  ";
-echo " | |_| | |_| | |\  | |___ ";
-echo " |____/ \___/|_| \_|_____|";
-echo "                          ";
-echo ">>> INSTALLATION  DONE <<<";
-echo "                          ";
-echo "                          ";
-echo ">>>>>  AFTER RESTART, YOU CAN ACCES HOMEBRIDGE DASHBOARD BY THIS IP:"
-echo " ";
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) -y
+sudo systemctl enable nodered.service
 
-
-sudo hostname -I
-
-
-echo " ";
-echo ">>>>>  PORT IS: 8581"
-echo " ";
 echo "                                                          ";
 echo ">>>>>>>>   UPDATE & INSTALL FINISHED, RESTARTNG   <<<<<<<<";
 echo "  ____  _____ ____ _____  _    ____ _____ ___ _   _  ____ ";
