@@ -9,8 +9,10 @@ echo "  \____|_____|_____/_/   \_\_| \_|_____|_| \_\ ";
 echo "                                               ";
 echo "==========   CLEANING AFTER UPDATE  ========== ";
 echo " ";
-sudo apt autoremove -y
-sudo apt clean -y
+sudo apt autoremove -Y
+Y
+sudo apt clean -Y
+Y
 echo " ";
 echo ">>> Cleaning Done <<<";
 echo " ";
