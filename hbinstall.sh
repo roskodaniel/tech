@@ -17,7 +17,7 @@ echo " ";
 echo ">>> Installing Homebridge <<<";
 echo " ";
 sudo apt-get update
-sudo apt-get install homebridge
+sudo apt-get install homebridge -y
 echo " ";
 echo ">>> Homebridge Ready <<<";
 echo " ";
