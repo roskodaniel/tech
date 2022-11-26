@@ -18,3 +18,5 @@ echo " ";
 echo "Thank you for using our cleaner script!"
 echo ">>  github.com/roskodaniel"
 echo ">>  fiverr.com/daniel_rosko"
+echo " ";
+echo " ";
