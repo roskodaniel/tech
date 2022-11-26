@@ -1,23 +1,24 @@
 #!/bin/bash
-echo "                                               ";
-echo ">>>>>>>>>>>>>   UPDATING RASPBERRY <<<<<<<<<<<<";
-echo "  _   _ ____  ____    _  _____ ___ _   _  ____ ";
-echo " | | | |  _ \|  _ \  / \|_   _|_ _| \ | |/ ___|";
-echo " | | | | |_) | | | |/ _ \ | |  | ||  \| | |  _ ";
-echo " | |_| |  __/| |_| / ___ \| |  | || |\  | |_| |";
-echo "  \___/|_|   |____/_/   \_\_| |___|_| \_|\____|";
-echo "                                               ";
-echo ">>>>>>>>>>>>>   UPDATING RASPBERRY <<<<<<<<<<<<";
-echo "                                               "; 
-sudo apt update && sudo apt full-upgrade -y
-echo "                                                          ";
-echo ">>>>>>>>>>>>>   UPDATE FINISHED, RESTARTNG   <<<<<<<<<<<<<";
-echo "  ____  _____ ____ _____  _    ____ _____ ___ _   _  ____ ";
-echo " |  _ \| ____/ ___|_   _|/ \  |  _ \_   _|_ _| \ | |/ ___|";
-echo " | |_) |  _| \___ \ | | / _ \ | |_) || |  | ||  \| | |  _ ";
-echo " |  _ <| |___ ___) || |/ ___ \|  _ < | |  | || |\  | |_| |";
-echo " |_| \_\_____|____/ |_/_/   \_\_| \_\|_| |___|_| \_|\____|";
-echo "                                                          ";
-echo ">>>>>>>>>>>>>   UPDATE FINISHED, RESTARTNG   <<<<<<<<<<<<<";
-echo "                                                          ";
+echo " ";
+echo "====================    Welcome to    ====================";
+echo "  ____      _    ____  ____  ____  _____ ____  ______   __";
+echo " |  _ \    / \  / ___||  _ \| __ )| ____|  _ \|  _ \ \ / /";
+echo " | |_) |  / _ \ \___ \| |_) |  _ \|  _| | |_) | |_) \ V / ";
+echo " |  _ <  / ___ \ ___) |  __/| |_) | |___|  _ <|  _ < | |  ";
+echo " |_| \_\/_/   \_\____/|_|   |____/|_____|_| \_\_| \_\|_|  ";
+echo " ";
+echo "======================   Updater  ========================";
+echo " ";
+echo ">>> Updating Raspberry <<<";
+echo " ";
+sudo apt update && sudo apt full-upgrade
+echo " ";
+echo ">>> Raspberry Ready <<<";
+echo " ";
+echo ">>> Rebooting Raspberry <<<";
+echo " ";
+echo " ";
+echo "Thank you for using our updater script!"
+echo ">>  github.com/roskodaniel"
+echo ">>  fiverr.com/daniel_rosko"
 sudo reboot
