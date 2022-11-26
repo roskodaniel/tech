@@ -31,3 +31,5 @@ echo " ";
 echo "Thank you for using our installer script!"
 echo ">>  github.com/roskodaniel"
 echo ">>  fiverr.com/daniel_rosko"
+echo " ";
+echo " ";
