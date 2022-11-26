@@ -11,7 +11,7 @@ echo "======================   Updater  ========================";
 echo " ";
 echo ">>> Updating Raspberry <<<";
 echo " ";
-sudo apt update && sudo apt full-upgrade
+sudo apt update && sudo apt full-upgrade -y
 echo " ";
 echo ">>> Raspberry Ready <<<";
 echo " ";
