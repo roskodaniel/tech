@@ -22,3 +22,5 @@ echo "Thank you for using our updater script!"
 echo ">>  github.com/roskodaniel"
 echo ">>  fiverr.com/daniel_rosko"
 sudo reboot
+
+fasz
